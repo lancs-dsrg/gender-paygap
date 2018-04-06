@@ -1,3 +1,4 @@
+# Boxplots of mean hourly percent by (some) industries
 gender = read.csv('gender-data.csv')
 gender$sicShort = sapply(gender$SicCodes, function (s) substr(s, start = 1, stop = 2))
 industryList = list("agriculture" = paste0(c("01","02","03","04","05")), 
